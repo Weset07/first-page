@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    background-color: #001c09;
+    color: #e0e0e0;
+    font-family: Merriweather, serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-image: url('images/akalibgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #e0e0e0;
+}
+
+.header h1 {
+    font-size: 46px;
+    margin: 200px 0;
+    font-family: playfair display, serif
+}
+
+.header img {
+    border-radius: 70%;
+    border: 1px solid #e0e0e0;
+}
+
+/* Menú interactivo */
+.menu {
+    text-align: center;
+    padding: 10px;
+}
+
+.menu table {
+    margin: auto;
+}
+
+.menu td {
+    padding: 25px;
+}
+
+.menu img {
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.menu img:hover {
+    transform: scale(1.4);
+}
+
+.menu p {
+    font-size: 14px;
+    color: #00ff9e; /* Color diferente para que resalten */
+    margin-top: 5px;
+}
+
+#extra {
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+    font-family: Playfair Display, serif;
+}
+
+/* Sección de habilidades */
+#pasiva, #q, #w, #e, #r, #L, #LP, #s {
+    background-color: rgba(0, 28, 9, 0.8);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+#pasiva h3, #q h3, #w h3, #e h3, #r h3, #L h3, #LP h3, #s h3{
+    font-size: 24px;
+    color: #00ff9e;
+}
+
+#pasiva p, #q p, #w p, #e p, #r p, #L p, #LP p, #s p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#pasiva img, #q img, #w img, #e img, #r img, #L img, #LP img, #s img {
+    border: 2px solid #00ff9e;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+/* Videos */
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    border: 2px solid #00ff9e;
+    border-radius: 600px;
+}
+
+.skins-title {
+    color: #e0e0e0;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.skins-list {
+    display: flex; /* Utiliza flexbox para alinear los elementos en línea */
+    flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente línea si no hay suficiente espacio */
+    justify-content: space-around; /* Espaciado uniforme entre elementos */
+    list-style-type: none; /* Elimina las viñetas de la lista */
+    padding: 0; /* Elimina el padding por defecto */
+}
+
+.skin-item {
+    margin: 5px; /* Espacio entre las imágenes */
+    width: 90px; /* Ancho fijo para las imágenes */
+}
+
+.skin-link {
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+.skin-image {
+    width: 100%; /* Las imágenes ocuparán el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    transition: transform 0.3s ease;
+}
+
+.skin-image:hover {
+    transform: scale(1.1);
+}
+
+.skin-description {
+    color: #e0e0e0;
+    text-align: center;
+}
+
+.skin-detail-title {
+    color: #e0e0e0;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.skin-detail-image {
+    width: 100%; /* Las imágenes ocuparán el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
